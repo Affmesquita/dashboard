@@ -25,7 +25,7 @@ body {
 
     padding: 25px;
 
-    background-color: #688ea681;
+    background-color: rgb(199, 100, 100);
 
     font-family: raleway;
 
@@ -40,10 +40,14 @@ body {
     width: 250px;
     height: 550px;
 
+    background-color: white;
+
+    border: 2px solid black;
     border-radius: 10px;
+
     padding: 10px;
 
-    background-color: #405F73;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.603);
 }
 
 .list-aside {
@@ -58,12 +62,13 @@ body {
 }
 .list-aside li {
     margin: 7px 0px;
+
     cursor: pointer;
 
     font-weight: bold;
 }
 .list-aside li:hover {
-    color: #688EA6;
+    color: #405F73;
 }
 
 /* MAIN */
@@ -71,8 +76,58 @@ body {
 .main-conteiner {
     width: 1000px;
 
-    background-color: #405F73;
+    border: 2px solid black;
     border-radius: 10px;
 
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
     padding: 10px;
+
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.603);
+}
+
+.nav-main {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    
+    margin: 3px 0px;
+    border-bottom: 3px solid black;
+}
+.nav-main ul {
+    display: flex;
+
+    align-items: center;
+}
+.nav-main li {
+    margin-right: 40px;
+
+    font-weight: bold;
+}
+
+/* section */
+
+.section-main {
+    width: 100%;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#foto-princ {
+    width: 90%;
+
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.recentes img{
+    width: 400px;
+    margin: 25px;
 }
