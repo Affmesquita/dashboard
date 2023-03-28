@@ -68,8 +68,11 @@ body {
 
     font-weight: bold;
 }
-.list-aside li:hover {
-    color: #405F73;
+.list-aside a {
+    color: #0D0D0D;
+}
+.list-aside a:hover {
+    color: #688EA6;
 }
 
 /* MAIN */
